@@ -1,6 +1,7 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QPushButton, QTextEdit, QFileDialog
 from PyQt5.QtCore import Qt
+import pyperclip
 import re
 
 
@@ -17,8 +18,9 @@ class TextEditor(QWidget):
         self.text_edit = QTextEdit(self)
         self.text_edit.setReadOnly(True)
 
-        self.cancel_button = QPushButton('Cancel', self)
+        self.cancel_button = QPushButton('Exit', self)
         self.copy_button = QPushButton('Copy', self)
+        self.save_button = QPushButton('Save', self)
 
         # Create layout for drag and drop window
         self.drag_drop_layout = QVBoxLayout()
@@ -30,6 +32,7 @@ class TextEditor(QWidget):
         self.button_layout = QHBoxLayout()
         self.button_layout.addWidget(self.cancel_button)
         self.button_layout.addWidget(self.copy_button)
+        self.button_layout.addWidget(self.save_button)
 
         # Create main layout and add sub-layouts
         self.main_layout = QVBoxLayout()
@@ -39,7 +42,8 @@ class TextEditor(QWidget):
 
         # Connect buttons to functions
         self.cancel_button.clicked.connect(self.close)
-        self.copy_button.clicked.connect(self.copy_file)
+        self.copy_button.clicked.connect(self.copy_text)
+        self.save_button.clicked.connect(self.save_file)
 
         # Enable drag and drop
         self.setAcceptDrops(True)
@@ -66,13 +70,17 @@ class TextEditor(QWidget):
         else:
             self.text_edit.setText('File must be a .txt file')
 
-    def copy_file(self):
+    def save_file(self):
         options = QFileDialog.Options()
         options |= QFileDialog.DontUseNativeDialog
         file_name, _ = QFileDialog.getSaveFileName(self, 'Save File', '', 'Text Files (*.txt)', options=options)
         if file_name:
             with open(file_name, 'w') as file:
                 file.write(self.text_edit.toPlainText())
+
+    def copy_text(self):
+        if self.text_edit.toPlainText():
+            pyperclip.copy(self.text_edit.toPlainText())
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
