@@ -1,0 +1,209 @@
+19:05:59 From David to Everyone:
+	so far...
+19:07:32 From David to Everyone:
+	What does the solution do?
+19:07:54 From David to Everyone:
+	They are always changing.
+19:08:39 From David to Everyone:
+	to collect
+19:08:53 From David to Everyone:
+	fridges, ovens,
+19:09:39 From David to Everyone:
+	layer
+19:10:23 From David to Everyone:
+	What does PLC stand for?
+19:10:56 From David to Everyone:
+	challenge
+19:11:10 From David to Everyone:
+	objective ? goal
+19:14:44 From David to Everyone:
+	Our jobs/roles
+19:14:49 From David to Everyone:
+	on the metal
+19:16:06 From David to Everyone:
+	I have been programming PLC for since 15 years.
+19:16:14 From David to Everyone:
+	for  - duration of time
+19:16:32 From David to Everyone:
+	since - beginning of a period of in the past
+19:16:42 From David to Everyone:
+	I have been programming PLC for 15 years.
+19:17:22 From David to Everyone:
+	I have been programming since 2005.
+19:19:25 From David to Everyone:
+	I have always programmed in ...
+19:22:23 From David to Everyone:
+	relatively new
+19:24:14 From David to Everyone:
+	specific tool
+19:24:26 From David to Everyone:
+	to plan
+19:24:54 From David to Everyone:
+	a plan
+19:26:00 From David to Everyone:
+	Do you use sprints?
+19:26:04 From David to Everyone:
+	Follow-up
+19:26:53 From David to Everyone:
+	phases /p/
+19:28:07 From David to Everyone:
+	What advantages are you expecting?
+19:28:24 From David to Everyone:
+	to share
+19:30:22 From David to Everyone:
+	What the tasks are?
+19:30:38 From David to Everyone:
+	How they are progressing.
+19:31:00 From David to Everyone:
+	to split the tasks into sub-tasks
+19:33:22 From David to Everyone:
+	to test a tool
+19:33:26 From David to Everyone:
+	successful
+19:33:52 From David to Everyone:
+	I've only seen ...
+19:34:07 From David to Everyone:
+	https://agilemanifesto.org/
+19:34:47 From David to Everyone:
+	training
+19:35:48 From David to Everyone:
+	Our highest priority is to satisfy the customer
+	through early and continuous delivery
+	of valuable software.
+19:36:59 From David to Everyone:
+	the highest, the lowest
+19:37:41 From David to Everyone:
+	the cheapest, the most expensive
+19:38:23 From David to Everyone:
+	big, small, hot,
+19:38:46 From David to Everyone:
+	beautiful
+19:39:17 From David to Everyone:
+	wonderful, more wonderful, the most wonderful
+19:39:44 From David to Everyone:
+	big, bigger, the biggest
+19:41:52 From David to Everyone:
+	Welcome changing requirements, even late in
+	development. Agile processes harness change for
+	the customer's competitive advantage.
+19:43:47 From David to Everyone:
+	to harness
+19:45:02 From David to Everyone:
+	Deliver working software frequently, from a
+	couple of weeks to a couple of months, with a
+	preference to the shorter timescale.
+19:45:29 From David to Everyone:
+	short, shorter, the shortest
+19:46:11 From David to Everyone:
+	It works - It's functioning correctly.
+19:46:43 From David to Everyone:
+	a sprint
+19:47:04 From David to Everyone:
+	a deadline
+19:48:00 From David to Everyone:
+	Business people and developers must work
+	together daily throughout the project.
+19:51:01 From David to Everyone:
+	to diverage
+19:51:13 From David to Everyone:
+	my hands are tied
+19:51:48 From David to Everyone:
+	must - debe
+19:52:04 From David to Everyone:
+	should - debieria
+19:52:19 From David to Everyone:
+	to have to -
+19:52:35 From David to Everyone:
+	Build projects around motivated individuals.
+	Give them the environment and support they need,
+	and trust them to get the job done.
+19:52:57 From David to Everyone:
+	to trust
+19:54:47 From David to Everyone:
+	https://agilemanifesto.org/
+19:55:38 From David to Everyone:
+	The most efficient and effective method of
+	conveying information to and within a development
+	team is face-to-face conversation.
+19:55:50 From David to Everyone:
+	https://agilemanifesto.org/principles.html
+19:56:54 From David to Everyone:
+	to convey information
+19:58:12 From David to Everyone:
+	a gesture / body language
+19:58:25 From David to Everyone:
+	Working software is the primary measure of progress.
+19:59:10 From David to Everyone:
+	to measure - medirt
+20:00:42 From David to Everyone:
+	a milestone
+20:02:11 From David to Everyone:
+	waterfall
+20:02:54 From David to Everyone:
+	Agile processes promote sustainable development.
+	The sponsors, developers, and users should be able
+	to maintain a constant pace indefinitely.
+20:03:25 From David to Everyone:
+	pace - ritmo
+20:03:33 From David to Everyone:
+	pacemaker -
+20:04:50 From David to Everyone:
+	to be able to
+20:05:41 From David to Everyone:
+	peaks and valleys
+20:06:44 From David to Everyone:
+	Continuous attention to technical excellence
+	and good design enhances agility.
+20:06:55 From David to Everyone:
+	to enhance
+20:07:13 From David to Everyone:
+	to improve
+20:08:51 From David to Everyone:
+	Simplicity--the art of maximizing the amount
+	of work not done--is essential.
+20:09:26 From David to Everyone:
+	the amount
+20:10:10 From David to Everyone:
+	only do the essential
+20:10:52 From David to Everyone:
+	The best architectures, requirements, and designs
+	emerge from self-organizing teams.
+20:12:40 From David to Everyone:
+	It's simplier.
+20:13:27 From David to Everyone:
+	the role
+20:14:03 From David to Everyone:
+	At regular intervals, the team reflects on how
+	to become more effective, then tunes and adjusts
+	its behavior accordingly.
+20:14:22 From David to Everyone:
+	to tune
+20:14:44 From David to Everyone:
+	to adjust
+20:15:37 From David to Everyone:
+	accordingly
+20:18:24 From David to Everyone:
+	a task
+20:18:49 From David to Everyone:
+	I always ask my manager, if I did the task well.
+20:19:29 From David to Everyone:
+	accordingly
+20:19:54 From David to Everyone:
+	Simplicity--the art of maximizing the amount
+	of work not done--is essential.
+20:20:12 From David to Everyone:
+	Lean Development
+20:20:32 From David to Everyone:
+	lean - without fat (meat)
+20:28:58 From David to Everyone:
+	ramon.monteagudo@sothis.tech
+20:30:23 From David to Everyone:
+	alberto.alvarez@sothis.tech
+20:32:43 From David to Everyone:
+	Ramon can you turn off your camera.
+20:32:48 From David to Everyone:
+	We can't hear you.
+20:54:26 From David to Everyone:
+	to get someone
+20:54:31 From David to Everyone:
+	to get somewhere
