@@ -1,6 +1,6 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QPushButton, QTextEdit, QFileDialog
-from PyQt5.QtCore import Qt
+from PyQt6.QtWidgets import QApplication, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QPushButton, QTextEdit, QFileDialog
+from PyQt6.QtCore import Qt
 import pyperclip
 import re
 
@@ -13,7 +13,7 @@ class TextEditor(QWidget):
 
         # Create widgets
         self.title_label = QLabel('Drag and Drop .txt File', self)
-        self.title_label.setAlignment(Qt.AlignCenter)
+        self.title_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
         self.text_edit = QTextEdit(self)
         self.text_edit.setReadOnly(True)
@@ -71,9 +71,7 @@ class TextEditor(QWidget):
             self.text_edit.setText('File must be a .txt file')
 
     def save_file(self):
-        options = QFileDialog.Options()
-        options |= QFileDialog.DontUseNativeDialog
-        file_name, _ = QFileDialog.getSaveFileName(self, 'Save File', '', 'Text Files (*.txt)', options=options)
+        file_name, _ = QFileDialog.getSaveFileName(self, 'Save File', '', 'Text Files (*.txt)')
         if file_name:
             with open(file_name, 'w') as file:
                 file.write(self.text_edit.toPlainText())
@@ -86,5 +84,5 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     text_editor = TextEditor()
     text_editor.show()
-    sys.exit(app.exec_())
+    sys.exit(app.exec())
 
