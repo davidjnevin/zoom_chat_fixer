@@ -8,6 +8,9 @@ The program reads in a `.txt` file of a Zoom chat log that contains time-stamps 
 
 The cleaned up chat log can then be saved as a new `.txt` file or copied to the clipboard for further use.
 
+![zoom chat clearer](./zoom_chat_clearner.png)
+
+
 ## Installation
 
 The program is written in Python 3 and requires the following packages to be installed: `PyQt6`, `pyperclip`, and `re`.
